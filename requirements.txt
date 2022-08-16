@@ -1,0 +1,10 @@
+numpy
+torch
+torchvision
+opencv-python
+wandb
+pandas
+plotly
+git+https://github.com/geoopt/geoopt.git
+scipy
+nltk
