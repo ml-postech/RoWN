@@ -61,5 +61,6 @@ def noisy_sythetic_binary_tree(depth, n_samples=100):
 if __name__ == "__main__":
     for depth in range(4, 9):
         data, feature = noisy_sythetic_binary_tree(depth)
-        np.save(f'/data_seoul/shhj1998/dataset/NSBT/depth_{depth}.npy', data)
-        np.save(f'/data_seoul/shhj1998/dataset/NSBT/feature_{depth}.npy', feature)
+        np.save(f'./depth_{depth}.npy', data)
+        np.save(f'./feature_{depth}.npy', feature)
+

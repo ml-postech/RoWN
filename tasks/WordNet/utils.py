@@ -155,6 +155,6 @@ if __name__ == "__main__":
         print('wordnet dataset is not found, start download')
         nltk.download('wordnet')
     print('generate dataset')
-    # generate_dataset('../../data/', with_mammal=False)
+    generate_dataset('../../data/', with_mammal=False)
     generate_dataset('../../data/', with_mammal=True)
 
